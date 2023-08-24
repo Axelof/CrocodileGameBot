@@ -1,0 +1,11 @@
+.idea
+.run
+**/*.env
+**/credentials.json
+**/*.mo
+Dockerfile
+docker-compose.*
+docker.sh
+.gitignore
+.gitlab-ci.yml
+README.md

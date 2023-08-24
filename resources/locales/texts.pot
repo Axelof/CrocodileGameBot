@@ -1,0 +1,550 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-08-18 17:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: /moo-moo/src/server/routes/pay_cloud_payment.py:88
+msgid "messages.refund_payment"
+msgstr ""
+
+#: /moo-moo/src/telegram/callbacks/private/day.py:130
+#: /moo-moo/src/telegram/handlers/private/filling_day.py:254
+#: /moo-moo/src/telegram/messages/loading.py:10
+msgid "messages.loading"
+msgstr ""
+
+#: /moo-moo/src/telegram/callbacks/private/diary.py:39
+#: /moo-moo/src/telegram/messages/child_menu.py:49
+#: /moo-moo/src/telegram/messages/diary.py:13
+msgid "messages.diary_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/callbacks/private/select_tags.py:46
+msgid "messages.select_tags"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:14
+msgid "buttons.back_to_child_list"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:21
+msgid "buttons.back_to_diary"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:29
+#: /moo-moo/src/telegram/keyboards/inline/back.py:37
+msgid "buttons.back"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:44
+msgid "buttons.back_to_tariff_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:51
+msgid "buttons.back_to_choise_options"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:58
+msgid "buttons.back_to_frequent_quests"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/back.py:65
+#: /moo-moo/src/telegram/keyboards/inline/tariff.py:38
+msgid "buttons.back_to_main_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/child_menu.py:20
+msgid "buttons.add_new_child"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/diary.py:37
+msgid "buttons.slider_back"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/diary.py:48
+msgid "buttons.slider_forward"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:33
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:145
+msgid "buttons.auto.start_new_day"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:34
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:146
+msgid "buttons.manual.start_new_day"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:36
+msgid "buttons.auto.add_awakening"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:37
+msgid "buttons.manual.add_awakening"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:39
+msgid "buttons.auto.add_night_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:40
+msgid "buttons.manual.add_night_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:42
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:148
+msgid "buttons.auto.add_nightwalk_start"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:43
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:149
+msgid "buttons.auto.add_nightwalk_end"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:45
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:151
+msgid "buttons.manual.add_nightwalk_start"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:46
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:152
+msgid "buttons.manual.add_nightwalk_end"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:48
+msgid "buttons.auto.add_start_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:49
+msgid "buttons.auto.add_end_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:51
+msgid "buttons.manual.add_start_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:52
+msgid "buttons.manual.add_end_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:54
+msgid "buttons.open_day_settings"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:142
+msgid "buttons.hide_finally_message"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:143
+msgid "buttons.about_nightwalks"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:198
+msgid "buttons.change_date"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:199
+msgid "buttons.change_awakening"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:240
+msgid "buttons.edit_sleep_start"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/filling_day.py:241
+msgid "buttons.edit_sleep_end"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:20
+msgid "buttons.diary"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:24
+msgid "buttons.download_exel"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:28
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:73
+msgid "buttons.answer_to_frequent_questions"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:32
+msgid "buttons.help"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:36
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:87
+msgid "buttons.functions_and_tariffs"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:40
+msgid "buttons.edit_timezone"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/main_menu.py:53
+msgid "buttons.go_to_main_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:34
+msgid "buttons.accept_terms_of_service"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:47
+msgid "buttons.welcome_intro"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:60
+msgid "buttons.welcome_continuation"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:80
+msgid "buttons.video_how_to_work_with_diary"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:100
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:158
+#: /moo-moo/src/telegram/keyboards/inline/tariff.py:48
+msgid "buttons.go_to_tariff_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:115
+msgid "buttons.download_diary_filling_instructions"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:122
+msgid "buttons.about_diary_purpose"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:129
+msgid "buttons.about_diary_duration_days"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:136
+msgid "buttons.about_sleep_start_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:143
+msgid "buttons.illness_teething_period"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:150
+msgid "buttons.moo_moo_creators"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/onboarding.py:183
+msgid "buttons.sleep_onset_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/pay.py:12
+msgid "buttons.pay"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/select_tags.py:25
+msgid "buttons.confirm_select_tags"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/tariff.py:31
+msgid "buttons.upgrade_tariff"
+msgstr ""
+
+#: /moo-moo/src/telegram/keyboards/inline/timezone.py:15
+msgid "countries.RU"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/add_new_child.py:10
+msgid "messages.add_child_name"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/add_new_child.py:17
+msgid "messages.add_birthday_child"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/add_new_child.py:24
+msgid "messages.add_estimated_delivery_date"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/add_new_child.py:32
+#: /moo-moo/src/telegram/messages/filling_day.py:317
+msgid "messages.invalid_date"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:45
+msgid "messages.diary_day"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:62
+msgid "messages.waking_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:63
+#: /moo-moo/src/telegram/messages/filling_day.py:195
+msgid "messages.daytime_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:64
+msgid "messages.awakening"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:65
+msgid "messages.start_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:66
+msgid "messages.end_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:91
+msgid "messages.night_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:92
+#: /moo-moo/src/telegram/messages/filling_day.py:199
+msgid "messages.night_sleep_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:98
+msgid "messages.night_sleep_end"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:135
+msgid "messages.nightwalk_count"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:136
+msgid "messages.nightwalks_time_spent"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:187
+msgid "messages.amount_of_waking"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:191
+msgid "messages.total_sleep_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:203
+msgid "messages.amount_of_sleep"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:214
+msgid "messages.finally_diary_day"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:222
+msgid "messages.write_awakening_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:229
+msgid "messages.change_day_date"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:236
+msgid "messages.change_awakening"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:243
+msgid "messages.write_new_sleep_start_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:250
+msgid "messages.write_new_end_start_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:257
+msgid "messages.write_start_sleep_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:263
+msgid "messages.write_end_sleep_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:270
+msgid "messages.write_night_sleep_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:277
+msgid "messages.write_comment"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:284
+msgid "messages.write_start_nightwalk_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:291
+msgid "messages.write_end_nightwalk_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:300
+msgid "messages.invalid_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/filling_day.py:309
+msgid "messages.occupied_day_date"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/main_menu.py:12
+msgid "messages.main_menu"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:21
+msgid "messages.terms_of_service"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:30
+msgid "messages.welcome_intro"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:40
+msgid "messages.welcome_continuation"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:48
+msgid "messages.choice_options"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:64
+msgid "messages.frequent_questions"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:73
+msgid "messages.diary_filling_video_tutorial"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:81
+msgid "messages.about_basic_concepts"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:91
+msgid "messages.about_diary_purpose"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:101
+msgid "messages.about_diary_filling_duration"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:111
+msgid "messages.about_sleep_start_time"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:121
+msgid "messages.about_nightwalks"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:131
+msgid "messages.about_illness_teething_period"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/onboarding.py:141
+msgid "messages.about_moo_moo_creators"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/pay.py:15
+msgid "messages.pay_success"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/pay.py:28
+msgid "messages.pay_fail"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/pay.py:44
+msgid "messages.you_want_to_pay"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/tariff.py:13
+msgid "messages.choose_tariff"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/tariff.py:27
+msgid "message.your_tariff"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/timezone.py:12
+msgid "messages.choose_country"
+msgstr ""
+
+#: /moo-moo/src/telegram/messages/timezone.py:20
+msgid "messages.choose_timezone"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:120
+msgid "enum.monday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:121
+msgid "enum.tuesday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:122
+msgid "enum.wednesday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:123
+msgid "enum.thursday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:124
+msgid "enum.friday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:125
+msgid "enum.saturday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:126
+msgid "enum.sunday"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:134
+msgid "enum.first"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:135
+msgid "enum.second"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:136
+msgid "enum.third"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:137
+msgid "enum.fourth"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:138
+msgid "enum.fifth"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:139
+msgid "enum.sixth"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:140
+msgid "enum.seventh"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:141
+msgid "enum.eighth"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:142
+msgid "enum.ninth"
+msgstr ""
+
+#: /moo-moo/src/telegram/utils/enums.py:143
+msgid "enum.tenth"
+msgstr ""
+

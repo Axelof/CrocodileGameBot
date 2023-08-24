@@ -1,0 +1,18 @@
+version: "1"
+
+services:
+  backend:
+    env_file: .env
+    build: .
+    tty: true
+
+  database:
+    env_file: .env
+    image: mongo:7.0.1-rc0-jammy
+    expose:
+      - 27017
+    volumes:
+      - database_data:/data/db
+
+volumes:
+  database_data:
