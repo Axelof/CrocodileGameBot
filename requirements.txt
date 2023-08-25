@@ -1,1 +1,7 @@
 Babel
+fastapi
+uvicorn
+loguru
+aiogram~=3.0.0b7
+APScheduler
+pydantic[dotenv]==1.*

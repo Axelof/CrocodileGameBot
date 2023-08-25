@@ -11,5 +11,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# CHANGE TO "CMD ["uvicorn", "server:app"]"
-CMD ["python", "src"]
+CMD ["uvicorn", "server:app"]
