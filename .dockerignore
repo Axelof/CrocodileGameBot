@@ -3,6 +3,7 @@
 **/*.env
 **/credentials.json
 **/*.mo
+assets
 Dockerfile
 docker-compose.*
 docker.sh

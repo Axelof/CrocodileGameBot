@@ -11,4 +11,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["uvicorn", "server:app"]
+WORKDIR $PROJECT_DIR/src
+
+ENTRYPOINT ["uvicorn", "server:app"]
