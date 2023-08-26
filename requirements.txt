@@ -1,6 +1,7 @@
 Babel
 fastapi
 uvicorn
+motor
 loguru
 aiogram~=3.0.0b7
 APScheduler
