@@ -1,65 +1,34 @@
-import builtins
-from abc import ABC, abstractmethod
-from enum import Enum
-from typing import Optional, Any, Tuple, Union, get_args, get_origin
+from abc import ABC
+from typing import get_args, get_origin, Optional, Any, final
 
-from pydantic import BaseModel
+from errors.attributes import AttributeValidationError
+from errors.enums import AttributeValidationErrorType
+from utils import is_builtin_type, get_class_variables
 
-
-def is_builtin_type(tp):
-    return tp in vars(builtins).values() or get_origin(tp) in vars(builtins).values()
+from vkbottle import Callback
 
 
-class AttributeValidationErrorType(str, Enum):
-    MISSING = "MISSING"
-    INCORRECT = "INCORRECT"
-
-
-class AttributeValidationError(Exception):
-    """Exception raised if there is no value when it is needed or if the type is incorrect
-    """
-
-    def __init__(
-            self,
-            error_type: AttributeValidationErrorType,
-            *,
-            key: str,
-            value: Any = None,
-            actual_type: Any = None,
-            expected_type: Any = None,
-            message: str = "Field error [type={type}, key={key}, value={value}, actual_type={actual_type}, expected_type={expected_type}]"
-    ):
-        """
-        :param str key: field name
-        :type key: str
-        :param value: field value
-        :type value: Any
-        :param actual_type: field type
-        :type actual_type: Any
-        :param expected_type: expected field type
-        :type expected_type: Any
-        :param message: error text template
-        :type message: str
-        """
-
-        self.message = message.format(type=error_type.value, key=key, value=value, actual_type=actual_type, expected_type=expected_type)
-        super().__init__(self.message)
-
-
-class ABCEvent(ABC):
+class BaseEvent(ABC):
     def __init__(self, **kwargs):
+        if self.__class__.__name__ == BaseEvent.__name__:
+            raise TypeError("BaseEvent cannot be instantiated directly")
+
+        self.prefix = self.__class__.__name__
         self.kwargs = kwargs
 
-    def pack(self):
+        self.payload = self.pack()
+
+    @final
+    def pack(self) -> dict[str, Any]:
         payload = {
-            "prefix": self.__class__.__name__
+            "prefix": self.prefix
         }
 
         for key, _type in self.__class__.__annotations__.items():
-            value = self.kwargs.get(key, None)
+            value = self.kwargs.get(key, None) or get_class_variables(self.__class__).get(key, None)
 
-            if value is None and not _type == Optional[_type]:
-                raise AttributeValidationError(AttributeValidationErrorType.MISSING, key=key)
+            if value is None and _type not in [_type | None, Optional[_type]]:  # support new syntax
+                raise AttributeValidationError(AttributeValidationErrorType.MISSING, key=key, expected_type=_type)
 
             if value is not None and not (
                     (is_builtin_type(_type) and type(value) == _type)
@@ -77,17 +46,20 @@ class ABCEvent(ABC):
 
         return payload
 
-    @classmethod  # TODO возвращает Callback кнопку с .pack(), Label, color
-    def configure(cls):
-        return NotImplemented
+    @final
+    def button(self, label: str) -> Callback:
+        """
+
+        :param label: Button Text
+        :return: Callback button with completed values
+        """
+
+        return Callback(
+            label=label,
+            payload=self.payload
+        )
 
     @classmethod  # TODO фильтрует dict по хранящемуся в нём prefix, и, далее по кастомным ключам если prefix от ивента
+    @final
     def filter(cls, **kwargs):
         return NotImplemented
-
-
-class CustomEvent(ABCEvent):
-    mew: Optional[int]
-
-
-print(CustomEvent(mew=1).pack())

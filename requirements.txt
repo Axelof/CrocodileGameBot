@@ -1,8 +1,9 @@
 Babel
-fastapi
+fastapi~=0.103.0
 uvicorn
-motor
-loguru
+motor~=3.0.0
+loguru~=0.7.0
 aiogram~=3.0.0b7
-APScheduler
+APScheduler~=3.10.1
 pydantic[dotenv]==1.*
+vkbottle~=4.3.12
