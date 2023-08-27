@@ -1,6 +1,12 @@
+from enum import auto
 from typing import Any
 
-from errors.enums import AttributeValidationErrorType
+from enums import AutoName
+
+
+class AttributeValidationErrorType(AutoName):
+    MISSING = auto()
+    INCORRECT = auto()
 
 
 class AttributeValidationError(Exception):
